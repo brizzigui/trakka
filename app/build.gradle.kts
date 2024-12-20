@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.trakkamap"
+    namespace = "com.leveldowngames.trakkamap"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.trakkamap"
+        applicationId = "com.leveldowngames.trakkamap"
         minSdk = 26
         targetSdk = 34
         versionCode = 2

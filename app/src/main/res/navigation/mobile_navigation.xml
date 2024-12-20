@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.trakkamap.ui.explore.ExploreFragment"
+        android:name="com.leveldowngames.trakkamap.ui.explore.ExploreFragment"
         android:label="@string/title_explore"
         tools:layout="@layout/fragment_explore" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.trakkamap.ui.achievements.AchievementsFragment"
+        android:name="com.leveldowngames.trakkamap.ui.achievements.AchievementsFragment"
         android:label="@string/title_achievements"
         tools:layout="@layout/fragment_achievements" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.trakkamap.ui.profile.ProfileFragment"
+        android:name="com.leveldowngames.trakkamap.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/help_section"
-        android:name="com.example.trakkamap.ui.help.HelpFragment"
+        android:name="com.leveldowngames.trakkamap.ui.help.HelpFragment"
         android:label="Help"
         tools:layout="@layout/fragment_profile" />
 

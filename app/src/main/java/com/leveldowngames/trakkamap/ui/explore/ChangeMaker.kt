@@ -1,4 +1,4 @@
-package com.example.trakkamap.ui.explore
+package com.leveldowngames.trakkamap.ui.explore
 
 import android.content.Context
 import android.graphics.Color

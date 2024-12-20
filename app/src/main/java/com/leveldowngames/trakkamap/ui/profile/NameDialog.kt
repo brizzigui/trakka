@@ -1,4 +1,4 @@
-package com.example.trakkamap.ui.profile
+package com.leveldowngames.trakkamap.ui.profile
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.EditText
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
-import com.example.trakkamap.R
+import com.leveldowngames.trakkamap.R
 import java.io.File
 
 class NameDialog(private val previousView : View) : DialogFragment() {

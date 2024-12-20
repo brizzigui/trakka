@@ -1,4 +1,4 @@
-package com.example.trakkamap.ui.explore
+package com.leveldowngames.trakkamap.ui.explore
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,7 +13,7 @@ import android.widget.ImageButton
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.toBitmap
 import androidx.fragment.app.Fragment
-import com.example.trakkamap.R
+import com.leveldowngames.trakkamap.R
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import org.osmdroid.config.Configuration

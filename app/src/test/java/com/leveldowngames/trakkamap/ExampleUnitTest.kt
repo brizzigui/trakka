@@ -1,4 +1,4 @@
-package com.example.trakkamap
+package com.leveldowngames.trakkamap
 
 import org.junit.Test
 

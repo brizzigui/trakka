@@ -37,7 +37,7 @@
             android:value="osmdroid" />
 
         <service
-            android:name="com.example.trakkamap.Pinpointer"
+            android:name="com.leveldowngames.trakkamap.Pinpointer"
             android:foregroundServiceType="location"
             android:persistent="true"
             android:enabled="true"

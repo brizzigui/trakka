@@ -1,18 +1,17 @@
-package com.example.trakkamap.ui.settings
+package com.leveldowngames.trakkamap.ui.help
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageButton
 import androidx.fragment.app.Fragment
-import com.example.trakkamap.R
-import com.example.trakkamap.databinding.SettingsSectionBinding
+import com.leveldowngames.trakkamap.R
+import com.leveldowngames.trakkamap.databinding.HelpSectionBinding
 
-class SettingsFragment : Fragment() {
+class HelpFragment : Fragment() {
 
-    private var _binding: SettingsSectionBinding? = null
+    private var _binding: HelpSectionBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,7 +23,7 @@ class SettingsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = SettingsSectionBinding.inflate(inflater, container, false)
+        _binding = HelpSectionBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         return root
@@ -42,11 +41,6 @@ class SettingsFragment : Fragment() {
                 )
                 .remove(this)
                 .commit()
-        }
-
-        val deleteButton = requireView().findViewById<Button>(R.id.delete_button)
-        deleteButton.setOnClickListener {
-            ConfirmationDialog().show(childFragmentManager, "DeleteDialog")
         }
     }
 

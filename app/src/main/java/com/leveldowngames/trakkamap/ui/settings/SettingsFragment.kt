@@ -1,17 +1,18 @@
-package com.example.trakkamap.ui.privacy
+package com.leveldowngames.trakkamap.ui.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageButton
 import androidx.fragment.app.Fragment
-import com.example.trakkamap.R
-import com.example.trakkamap.databinding.PrivacySectionBinding
+import com.leveldowngames.trakkamap.R
+import com.leveldowngames.trakkamap.databinding.SettingsSectionBinding
 
-class PrivacyFragment : Fragment() {
+class SettingsFragment : Fragment() {
 
-    private var _binding: PrivacySectionBinding? = null
+    private var _binding: SettingsSectionBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,7 +24,7 @@ class PrivacyFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = PrivacySectionBinding.inflate(inflater, container, false)
+        _binding = SettingsSectionBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         return root
@@ -41,6 +42,11 @@ class PrivacyFragment : Fragment() {
                 )
                 .remove(this)
                 .commit()
+        }
+
+        val deleteButton = requireView().findViewById<Button>(R.id.delete_button)
+        deleteButton.setOnClickListener {
+            ConfirmationDialog().show(childFragmentManager, "DeleteDialog")
         }
     }
 

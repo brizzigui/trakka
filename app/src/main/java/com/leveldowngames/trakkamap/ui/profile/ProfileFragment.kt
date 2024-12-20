@@ -1,4 +1,4 @@
-package com.example.trakkamap.ui.profile
+package com.leveldowngames.trakkamap.ui.profile
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,14 +7,11 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.example.trakkamap.R
-import com.example.trakkamap.databinding.FragmentProfileBinding
-import com.example.trakkamap.ui.help.HelpFragment
-import com.example.trakkamap.ui.settings.SettingsFragment
-import com.example.trakkamap.ui.privacy.PrivacyFragment
-import com.example.trakkamap.ui.settings.ConfirmationDialog
-import org.w3c.dom.Text
+import com.leveldowngames.trakkamap.R
+import com.leveldowngames.trakkamap.databinding.FragmentProfileBinding
+import com.leveldowngames.trakkamap.ui.help.HelpFragment
+import com.leveldowngames.trakkamap.ui.settings.SettingsFragment
+import com.leveldowngames.trakkamap.ui.privacy.PrivacyFragment
 import java.io.File
 
 class ProfileFragment : Fragment() {

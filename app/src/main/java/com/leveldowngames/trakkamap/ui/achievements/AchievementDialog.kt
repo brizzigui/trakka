@@ -1,4 +1,4 @@
-package com.example.trakkamap.ui.achievements
+package com.leveldowngames.trakkamap.ui.achievements
 
 import android.app.AlertDialog
 import android.app.Dialog
@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
-import com.example.trakkamap.R
+import com.leveldowngames.trakkamap.R
 
 class AchievementDialog(private val id: Int, private val hasObtained : ArrayList<Boolean>) : DialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {

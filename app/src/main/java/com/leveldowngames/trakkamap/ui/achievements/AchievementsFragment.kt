@@ -1,15 +1,14 @@
-package com.example.trakkamap.ui.achievements
+package com.leveldowngames.trakkamap.ui.achievements
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.example.trakkamap.R
-import com.example.trakkamap.databinding.FragmentAchievementsBinding
+import com.leveldowngames.trakkamap.R
+import com.leveldowngames.trakkamap.databinding.FragmentAchievementsBinding
 import java.io.File
 import java.util.Locale
 

@@ -1,10 +1,9 @@
-package com.example.trakkamap
+package com.leveldowngames.trakkamap
 
 import android.Manifest
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
-import android.app.PendingIntent
 import android.app.Service
 import android.content.Context
 import android.content.Intent
@@ -81,7 +80,7 @@ class Pinpointer : Service() {
         locationRequest.setPriority(Priority.PRIORITY_BALANCED_POWER_ACCURACY);
         locationRequest.setInterval(10000);
         locationRequest.setFastestInterval(5000);
-        locationRequest.setSmallestDisplacement(0f);
+        locationRequest.setSmallestDisplacement(10f);
 
         if (ContextCompat.checkSelfPermission(
                 this,

@@ -1,4 +1,4 @@
-package com.example.trakkamap
+package com.leveldowngames.trakkamap
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.example.trakkamap.ui.settings
+package com.leveldowngames.trakkamap.ui.settings
 
 import android.app.AlertDialog
 import android.app.Dialog
